@@ -9,18 +9,26 @@ body {
 
 }
 header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-image: url('assets/background.jpg');
     background-size: cover;
     background-position: center;
     height: 600px;
 }
-#search-bar {
-    margin-top: 265px;
-    padding: 15px;
+#search-form {
     width: 30%;
+    padding: 15px;
+    background-color: peachpuff;
     border-radius: 5px;
-    border: 1px solid #f1f1f1;
-    background-color: lightgoldenrodyellow;
+}
+#search-bar {
+    /* padding: 20px; */
+    border: none;
+}
+#search-button {
+    margin-left: 0px;
 }
 .hidden {
     display: none;
