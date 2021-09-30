@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color: #f1f1f1;
+
+}
+header {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#search-bar {
+    margin-top: 265px;
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: lightgoldenrodyellow;
+}
+.hidden {
+    display: none;
+}
+.photo-div a:hover {
+    display: block;
+}
