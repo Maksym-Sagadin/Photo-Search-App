@@ -18,17 +18,38 @@ header {
     height: 600px;
 }
 #search-form {
-    width: 30%;
-    padding: 15px;
-    background-color: peachpuff;
-    border-radius: 5px;
+    display: flex;
+    align-content: baseline;
+    justify-content: center;
+    padding: 8px;
+    border: 3px solid paleturquoise;
+    border-radius: 10px;
 }
 #search-bar {
-    /* padding: 20px; */
-    border: none;
+    padding: 10px 30px;
+    background-color: honeydew;
+    border: 3px solid cadetblue;
+    margin-right: 5px;
+    border-radius: 5px;
+
 }
-#search-button {
-    margin-left: 0px;
+#photo-button {
+    background-color: honeydew;
+    border: 3px solid cadetblue;
+    margin: 0px 5px;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+#video-button {
+    font-size: 25px;
+    background-color: honeydew;
+    border: 3px solid cadetblue;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
 }
 .hidden {
     display: none;
