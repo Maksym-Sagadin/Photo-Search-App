@@ -1,10 +1,9 @@
 let API_KEY = '563492ad6f91700001000001cc52da5bc10a47019f94450009ed5479';
 
-// let mainContainer = document.querySelector('.main-container');
 let photoButton = document.querySelector('.photo-button');
 let videoButton = document.querySelector('.video-button');
 
-// Overall Form
+// Photo Button
 photoButton.addEventListener('click', function(e) {
     e.preventDefault();
 
@@ -15,7 +14,7 @@ photoButton.addEventListener('click', function(e) {
             let photoData = results.photos.map(function(photo) {
                 return photo;
             })
-            console.log(photoData);
+
             let container = document.querySelector('.main-container');
             container.innerHTML = '';
             photoData.forEach(function(photo) {
@@ -48,7 +47,7 @@ videoButton.addEventListener('click', function(e) {
             let videoData = results.videos.map(function(video) {
                 return video;
             })
-            console.log(videoData);
+
             let container = document.querySelector('.main-container');
             container.innerHTML = '';
             videoData.forEach(function(video) {
