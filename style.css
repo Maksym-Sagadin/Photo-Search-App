@@ -5,19 +5,21 @@
 }
 body {
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: peachpuff;
+    width: 100%;
 
 }
 header {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url('assets/background.jpg');
+    background-image: url('assets/background_4.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 750px;
+    margin-bottom: 5px;
 }
-#search-form {
+.search-form {
     display: flex;
     align-content: baseline;
     justify-content: center;
@@ -25,7 +27,7 @@ header {
     border: 3px solid paleturquoise;
     border-radius: 10px;
 }
-#search-bar {
+.search-bar {
     padding: 10px 30px;
     background-color: honeydew;
     border: 3px solid cadetblue;
@@ -33,7 +35,7 @@ header {
     border-radius: 5px;
 
 }
-#photo-button {
+.photo-button {
     background-color: honeydew;
     border: 3px solid cadetblue;
     margin: 0px 5px;
@@ -42,18 +44,34 @@ header {
     border-radius: 5px;
 
 }
-#video-button {
+.video-button {
     font-size: 25px;
     background-color: honeydew;
     border: 3px solid cadetblue;
     margin: 0px 5px;
     padding: 5px 10px;
     border-radius: 5px;
-
 }
-.hidden {
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.video-div, .photo-div {
+    margin: 5px;
+}
+.video, .photo {
+    height: 300px;
+}
+.photographer {
     display: none;
+    position: relative;
+    /* text-align: left; */
+    /* left: -100px; */
 }
-.photo-div a:hover {
+.photographer:hover {
     display: block;
 }
