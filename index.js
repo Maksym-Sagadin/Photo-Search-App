@@ -55,7 +55,7 @@ videoButton.addEventListener('click', function(e) {
                 videoDiv.classList.add('video-div');
                 videoDiv.innerHTML = `
                     <a class='video-anchor' target='_blank' href='${video.url}'>
-                        <video class='video'  loop muted preload='none' autoplay='true' controls>
+                        <video class='video'  loop muted preload='none' autoplay='false' controls>
                             <source src='${video.video_files[0].link}' type='${video.video_files[0].file_type}'>
                         </video>
                     </a>
